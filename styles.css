@@ -10,10 +10,7 @@ body{
 
 h2{
     text-align: center;
-
 }
-
-
 
 
 h1{
@@ -23,7 +20,7 @@ h1{
 }
 
 #imgpro{
-    position:relative;
+    position: relative;
     top: 0;
     bottom: 600px;
     left: 0;
@@ -70,14 +67,42 @@ h1{
     border: rgb(0, 252, 42);
 }
 
-#menu{
-    background-color: blueviolet;
-    height: 60px;
-    width: 100%;
-    margin: 5px;
-    position: fixed;
-    opacity: 70%;
-    border: 1px solid #555;
-    overflow: auto;
-    border-radius: 35px;
+
+header {
+	width:100%;
+}
+
+header nav {
+	width:90%;
+	max-width:1000px;
+	margin:20px auto;
+	background:#024959;
+}
+
+.menu_bar {
+	display:none;
+}
+
+header nav ul {
+	overflow:hidden;
+	list-style:none;
+}
+
+header nav ul li {
+	float:left;
+}
+
+header nav ul li a {
+	color:#fff;
+	padding:20px;
+	display:block;
+	text-decoration:none;
+}
+
+header nav ul li span {
+	margin-right:10px;
+}
+
+header nav ul li a:hover {
+	background:#037E8C;
 }
