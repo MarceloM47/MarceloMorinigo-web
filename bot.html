@@ -7,24 +7,68 @@
     <title>Mini-Proyectos</title>
 </head>
 <body>
-    <h1 id="title">Mis mini proyectos con javascript</h1>
-
+    <h1 id="title">Bot Hecho con JavaScript</h1>
+    <br>
+    <br>
+    <br>
+    <br>
     
     <input id="input" type="text" placeholder="Escribe algo..." autofocus>
-    <button>Enviar</button>
+    <button id="envi" >Enviar</button>
     <p id="outpot"></p>
 
 
 
+    <style>
+        #title{
+            font-size: 40px;
+            color:dodgerblue;
+            text-align: center;
+        }
+        #input{
+            font-size: 25px;
+            position: relative;
+            left: 450px;
+            top: 200px;
+        }
+        #envi{
+            margin: 50px;
+            font-size: 20px;
+            position: relative;
+            top: 270px;
+            left: 75px;
+            text-decoration: none;
+            padding: 10px;
+            font-weight: 600;
+            font-size: 20px;
+            color: #ffffff;
+            background-color: #126969;
+            border-radius: 3px;
+            border: 2px solid #025658;
+        }
+        #envi:hover{
+            color: #00ffc8;
+            background-color: #ffffff;
+        }
+        #outpot{
+            text-align: center;
+            font-size: 25px;
+            color: red;
+        }
+        @media screen and(max-width: 800px){
+        #input{
+           position: static;
+           left: 50px;
+        }   
+        #outpot{
+            font-size: 25px;
+        }
+    }
+        </style>
 
 
 
 
-
-
-
-
-
-
+    <script src="bot.js"></script>
 </body>
 </html>
