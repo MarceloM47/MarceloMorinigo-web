@@ -31,8 +31,7 @@ body{
     width: 700px;
     position: relative;
     left: 250px;
-    box-shadow: gray ;
-}
+    box-shadow: inset -4px 3px 2px 4px rgba(161, 187, 255, 1);
 
 
 
@@ -42,19 +41,19 @@ body{
 
 
 
-@media screen and (max-width: 800px){
+@media screen and(max-width: 800px){
     .imi{
         position: relative;
         left: 50px;
     }   
     #contenedor{
-        height: 1000px;
-        width: 500px;
+        height: 800px;
+        width: 497px;
         position: relative;
-        left: 50px;
+        left: 5px;
     }
 
 
 }
 
-
+}
