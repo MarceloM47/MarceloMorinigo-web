@@ -33,29 +33,6 @@ h1{
 }
 
 
-.red{ 
-    margin: 5px;
-    width: 40px;
-    position: relative;
-    top: -20px;
-    left: 1000px;
-}
-
-#redes{
-    height: 70px;
-    width: 100%;
-    background-color: turquoise;
-}
-
-
-#ubi{
-    position: relative;
-    left: 50px;
-    top: 20px;
-    font-size: 27px;
-}
-
-
 .menut{
     text-decoration: none;
     color: rgb(95, 177, 224);
