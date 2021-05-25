@@ -9,61 +9,52 @@ body{
     background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);;
 }
 
-h1{
-    color:indigo;
-    font-size: 70px;
+.te{
+    font-size: 30px;
     text-align: center;
-    margin: 10px;
+    color: rgb(219, 74, 207);
+    margin: 20px;
+    padding: 7px;
 }
 
-p{
-    font-size: 20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: center;
-    color:darkgreen;
-    padding: 5px;
-}
-
-#cajami{
-    background-color: aquamarine;
-    margin-left: 200px;
-    margin-right: 200px;
-    height: 1000px;
-    width:auto;
-    box-shadow: 30px -26px teal;
-}
-
-.imgs{
+.imi{
+    height: 80px;
+    width: 80px;
+    margin: 20px;
     position: relative;
-    top: -200px;
-    left: 30px;
-    padding: 10px;
-
-
+    left: 150px;
 }
 
-.imgb{
-    margin: 10px;
-    width: 100px;
-    padding: 10px;
+#contenedor{
+    background-color: #789AFF;
+    height: 700px;
+    width: 700px;
+    position: relative;
+    left: 250px;
+    box-shadow: gray ;
 }
 
-.info{
-    padding: 5px;
-}
+
+
+
+
+
+
+
 
 @media screen and (max-width: 800px){
-	.info {position:relative}
-	#menu ul {background:#111;position:absolute;top:100%;right:0;left:0;z-index:3;height:auto;display:none}
-	#menu li {display:block;float:none;width:auto;}
-	#menu input, #menu label {position:absolute;top:0;left:0;display:block}
-	#menu input {z-index:4}
-	#menu input:checked + label {color:white}
-	#menu input:checked + label:before {content:"\00d7"}
-	#menu input:checked ~ ul {display:block}
+    .imi{
+        position: relative;
+        left: 50px;
+    }   
+    #contenedor{
+        height: 800px;
+        width: 497px;
+        position: relative;
+        left: 5px;
+    }
+
+
 }
-
-
-
 
 
