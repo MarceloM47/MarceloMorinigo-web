@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mini-Proyectos</title>
+    <title>Bot de JavaScript</title>
 </head>
 <body>
     <h1 id="title">Bot Hecho con JavaScript</h1>
@@ -12,11 +12,10 @@
     <br>
     <br>
     <br>
-    
+    <p id="outpot"></p>
+    <hr>
     <input id="input" type="text" placeholder="Escribe algo..." autofocus>
     <button id="envi" >Enviar</button>
-    <p id="outpot"></p>
-
 
 
     <style>
@@ -26,15 +25,15 @@
             text-align: center;
         }
         #input{
+            width: 400px;
+            height: 40px;
             font-size: 25px;
-            position: relative;
-            left: 450px;
-            top: 200px;
+            color: green;
         }
         #envi{
-            margin: 50px;
+            margin: 20px;
             font-size: 20px;
-            position: relative;
+            position: static;
             top: 270px;
             left: 75px;
             text-decoration: none;
@@ -52,23 +51,28 @@
         }
         #outpot{
             text-align: center;
-            font-size: 25px;
-            color: red;
+            font-size: 30px;
+            color: rgb(255, 47, 47);
+            left: 50px;
+            top: 50px;
         }
-        @media screen and(max-width: 800px){
-        #input{
-           position: static;
-           left: 50px;
-        }   
-        #outpot{
-            font-size: 25px;
+        #reglas{
+            margin: 70px;
+            padding: 10px;
+            background-color: hotpink;
         }
-    }
+        .rt{
+            font-size: 20px;
+            padding: 10px;
+        }
         </style>
-
-
-
-
+        <div id="reglas">
+        <h2>Al usar el bot:</h2>
+        <li class="rt" >Trata de que lo que escribas siempre empiecen en máyusculas</li>
+        <li class="rt" >Haz que tus preguntas siempre abran y cierren signos si es una pregunta</li>
+        <li class="rt"><b>por Ejemplo:</b> ¿Eres hombre o mujer?</li>
+        <li class="rt">Recuerda que el bot no esta hecho con inteligencia artificial lo que quiere decir que este bot solo esta programado para responder ciertas preguntas...</li>
+        </div>
     <script src="bot.js"></script>
 </body>
 </html>
