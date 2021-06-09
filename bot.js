@@ -10,18 +10,30 @@ function clickHandler()
 {
   stringIn = input.value;
 
-  if (stringIn === "hola" ) {
-    stringOut = "Hola que tal";
+  if (stringIn === "Hola") {
+    stringOut = "Hola que tal"
   }
-  else if (stringIn.includes("bien")) {
-    stringOut = ("que bueno");
+  else if(stringIn === "Bien") {
+    stringOut = "Me alegro mucho"
   }
-  else if (stringIn.includes("¿Eres hombre o mujer?")) {
-    stringOut = ("Soy mas hombre que tu");
+  else if(stringIn === "¿Quien eres?") {
+    stringOut = "Soy un bot creado por Marcelo Morinigo, programado para responder una cantidad limitada de preguntas..."
   }
-  else{
-      stringOut = "No comprendo lo que dices";
+  else if(stringIn === "¿Eres hombre o mujer?") {
+    stringOut = "Soy mas hombre que tu XD"
   }
+  else if(stringIn === "¿Como te llamas?") {
+    stringOut = "Mi creador aun no se le ocurrio un nombre &#128514;"
+  }
+  else if(stringIn === "Marcelo Morinigo") {
+    stringOut = "Es mi guapo creador &#128516;"
+  }
+  else if(stringIn === "¿Que puedes hacer?" || "¿Que sabes hacer?") {
+    stringOut = "Pues la verdad solo contestar limitadas preguntas :("
+  }
+
+
+  else(stringOut = "No comprendo lo que dices")
 
 
   outpot.innerHTML = stringOut;
