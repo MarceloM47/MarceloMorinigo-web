@@ -1,4 +1,4 @@
-    *{
+*{
     margin: 0;
     padding: 0;
 
@@ -34,9 +34,15 @@
         color: #ee8711;
     }
 
-    @media screen and(max-width: 800px){
-        .imi{
-            font-size: 70px;
+    @media screen and (max-width: 800px) {
+        #pst{
+            padding: 50px;
         }
-   
-}
+        .imi{
+            height: 150px;
+            width: 150px;
+            margin: 20px;
+            padding: 13px;
+            display: block;
+        }
+      }
